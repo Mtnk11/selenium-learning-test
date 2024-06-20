@@ -48,7 +48,7 @@ public class BaseTest {
                     System.setProperty("webdriver.chrome.driver",
                             "libs/chromedriver");
                     ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--headless");
+//                    options.addArguments("--headless");
                     options.addArguments("--no-sandbox");
                     options.addArguments("--disable-dev-shm-usage");
 
