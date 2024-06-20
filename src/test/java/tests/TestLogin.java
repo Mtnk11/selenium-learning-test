@@ -29,4 +29,10 @@ public class TestLogin extends BaseTest {
         login.with("tomsmith","SuperSecretPassword");
         Assert.assertTrue(login.failureLoginMessage());
     }
+    @Test
+    @Category(Shallow.class)
+    public void forcedFailure() {
+        login.with("tomsmith","SuperSecretPassword");
+        Assert.assertTrue(false);
+    }
 }
