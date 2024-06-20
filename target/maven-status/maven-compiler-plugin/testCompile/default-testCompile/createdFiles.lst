@@ -1,0 +1,11 @@
+tests/TestDynamicLoading.class
+tests/BaseTest$1.class
+tests/TestLogin.class
+tests/BaseTest$2.class
+tests/groups/Deep.class
+tests/groups/Shallow.class
+tests/BaseTest.class
+pageobjects/DynamicLoading.class
+config/Config.class
+pageobjects/Login.class
+pageobjects/BasePage.class
